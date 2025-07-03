@@ -1,0 +1,556 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		CCC8CABC2E1638650024DE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC8CAA52E1638640024DE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC8CAAC2E1638640024DE9F;
+			remoteInfo = NdVRF;
+		};
+		CCC8CAC62E1638650024DE9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CCC8CAA52E1638640024DE9F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCC8CAAC2E1638640024DE9F;
+			remoteInfo = NdVRF;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CCC8CAAD2E1638640024DE9F /* NdVRF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NdVRF.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC8CABB2E1638650024DE9F /* NdVRFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NdVRFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CCC8CAC52E1638650024DE9F /* NdVRFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NdVRFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		CCC8CAAF2E1638640024DE9F /* NdVRF */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NdVRF;
+			sourceTree = "<group>";
+		};
+		CCC8CABE2E1638650024DE9F /* NdVRFTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NdVRFTests;
+			sourceTree = "<group>";
+		};
+		CCC8CAC82E1638650024DE9F /* NdVRFUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = NdVRFUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CCC8CAAA2E1638640024DE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8CAB82E1638650024DE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8CAC22E1638650024DE9F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CCC8CAA42E1638640024DE9F = {
+			isa = PBXGroup;
+			children = (
+				CCC8CAAF2E1638640024DE9F /* NdVRF */,
+				CCC8CABE2E1638650024DE9F /* NdVRFTests */,
+				CCC8CAC82E1638650024DE9F /* NdVRFUITests */,
+				CCC8CAAE2E1638640024DE9F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CCC8CAAE2E1638640024DE9F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CCC8CAAD2E1638640024DE9F /* NdVRF.app */,
+				CCC8CABB2E1638650024DE9F /* NdVRFTests.xctest */,
+				CCC8CAC52E1638650024DE9F /* NdVRFUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CCC8CAAC2E1638640024DE9F /* NdVRF */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC8CACF2E1638650024DE9F /* Build configuration list for PBXNativeTarget "NdVRF" */;
+			buildPhases = (
+				CCC8CAA92E1638640024DE9F /* Sources */,
+				CCC8CAAA2E1638640024DE9F /* Frameworks */,
+				CCC8CAAB2E1638640024DE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				CCC8CAAF2E1638640024DE9F /* NdVRF */,
+			);
+			name = NdVRF;
+			packageProductDependencies = (
+			);
+			productName = NdVRF;
+			productReference = CCC8CAAD2E1638640024DE9F /* NdVRF.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CCC8CABA2E1638650024DE9F /* NdVRFTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC8CAD22E1638650024DE9F /* Build configuration list for PBXNativeTarget "NdVRFTests" */;
+			buildPhases = (
+				CCC8CAB72E1638650024DE9F /* Sources */,
+				CCC8CAB82E1638650024DE9F /* Frameworks */,
+				CCC8CAB92E1638650024DE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC8CABD2E1638650024DE9F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CCC8CABE2E1638650024DE9F /* NdVRFTests */,
+			);
+			name = NdVRFTests;
+			packageProductDependencies = (
+			);
+			productName = NdVRFTests;
+			productReference = CCC8CABB2E1638650024DE9F /* NdVRFTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CCC8CAC42E1638650024DE9F /* NdVRFUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCC8CAD52E1638650024DE9F /* Build configuration list for PBXNativeTarget "NdVRFUITests" */;
+			buildPhases = (
+				CCC8CAC12E1638650024DE9F /* Sources */,
+				CCC8CAC22E1638650024DE9F /* Frameworks */,
+				CCC8CAC32E1638650024DE9F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CCC8CAC72E1638650024DE9F /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				CCC8CAC82E1638650024DE9F /* NdVRFUITests */,
+			);
+			name = NdVRFUITests;
+			packageProductDependencies = (
+			);
+			productName = NdVRFUITests;
+			productReference = CCC8CAC52E1638650024DE9F /* NdVRFUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CCC8CAA52E1638640024DE9F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					CCC8CAAC2E1638640024DE9F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					CCC8CABA2E1638650024DE9F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = CCC8CAAC2E1638640024DE9F;
+					};
+					CCC8CAC42E1638650024DE9F = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = CCC8CAAC2E1638640024DE9F;
+					};
+				};
+			};
+			buildConfigurationList = CCC8CAA82E1638640024DE9F /* Build configuration list for PBXProject "NdVRF" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CCC8CAA42E1638640024DE9F;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = CCC8CAAE2E1638640024DE9F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CCC8CAAC2E1638640024DE9F /* NdVRF */,
+				CCC8CABA2E1638650024DE9F /* NdVRFTests */,
+				CCC8CAC42E1638650024DE9F /* NdVRFUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CCC8CAAB2E1638640024DE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8CAB92E1638650024DE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8CAC32E1638650024DE9F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CCC8CAA92E1638640024DE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8CAB72E1638650024DE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CCC8CAC12E1638650024DE9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CCC8CABD2E1638650024DE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC8CAAC2E1638640024DE9F /* NdVRF */;
+			targetProxy = CCC8CABC2E1638650024DE9F /* PBXContainerItemProxy */;
+		};
+		CCC8CAC72E1638650024DE9F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CCC8CAAC2E1638640024DE9F /* NdVRF */;
+			targetProxy = CCC8CAC62E1638650024DE9F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CCC8CACD2E1638650024DE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 6KW687AFV7;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CCC8CACE2E1638650024DE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 6KW687AFV7;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		CCC8CAD02E1638650024DE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NdVRF/NdVRF.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW687AFV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumonion.NdVRF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CCC8CAD12E1638650024DE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = NdVRF/NdVRF.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW687AFV7;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumonion.NdVRF;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		CCC8CAD32E1638650024DE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW687AFV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumonion.NdVRFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NdVRF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NdVRF";
+			};
+			name = Debug;
+		};
+		CCC8CAD42E1638650024DE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW687AFV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumonion.NdVRFTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NdVRF.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/NdVRF";
+			};
+			name = Release;
+		};
+		CCC8CAD62E1638650024DE9F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW687AFV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumonion.NdVRFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NdVRF;
+			};
+			name = Debug;
+		};
+		CCC8CAD72E1638650024DE9F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6KW687AFV7;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.quantumonion.NdVRFUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = NdVRF;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CCC8CAA82E1638640024DE9F /* Build configuration list for PBXProject "NdVRF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC8CACD2E1638650024DE9F /* Debug */,
+				CCC8CACE2E1638650024DE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC8CACF2E1638650024DE9F /* Build configuration list for PBXNativeTarget "NdVRF" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC8CAD02E1638650024DE9F /* Debug */,
+				CCC8CAD12E1638650024DE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC8CAD22E1638650024DE9F /* Build configuration list for PBXNativeTarget "NdVRFTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC8CAD32E1638650024DE9F /* Debug */,
+				CCC8CAD42E1638650024DE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCC8CAD52E1638650024DE9F /* Build configuration list for PBXNativeTarget "NdVRFUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CCC8CAD62E1638650024DE9F /* Debug */,
+				CCC8CAD72E1638650024DE9F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CCC8CAA52E1638640024DE9F /* Project object */;
+}
