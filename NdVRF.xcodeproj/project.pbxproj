@@ -8,9 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		CC52E6C32E87523000C447CA /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = CC52E6C22E87522900C447CA /* README.md */; };
-		CC52E6C52E87533B00C447CA /* login_screen.png in Resources */ = {isa = PBXBuildFile; fileRef = CC52E6C42E87533B00C447CA /* login_screen.png */; };
-		CC52E6C72E8753DB00C447CA /* fabric_selection.png in Resources */ = {isa = PBXBuildFile; fileRef = CC52E6C62E8753DB00C447CA /* fabric_selection.png */; };
-		CC52E6C92E87543600C447CA /* vrf_detail.png in Resources */ = {isa = PBXBuildFile; fileRef = CC52E6C82E87543600C447CA /* vrf_detail.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,15 +29,17 @@
 
 /* Begin PBXFileReference section */
 		CC52E6C22E87522900C447CA /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		CC52E6C42E87533B00C447CA /* login_screen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = login_screen.png; sourceTree = "<group>"; };
-		CC52E6C62E8753DB00C447CA /* fabric_selection.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fabric_selection.png; sourceTree = "<group>"; };
-		CC52E6C82E87543600C447CA /* vrf_detail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = vrf_detail.png; sourceTree = "<group>"; };
 		CCC8CAAD2E1638640024DE9F /* NdVRF.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NdVRF.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC8CABB2E1638650024DE9F /* NdVRFTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NdVRFTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC8CAC52E1638650024DE9F /* NdVRFUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NdVRFUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
+		CC52E6CA2E87560900C447CA /* images */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = images;
+			sourceTree = "<group>";
+		};
 		CCC8CAAF2E1638640024DE9F /* NdVRF */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = NdVRF;
@@ -87,9 +86,7 @@
 			isa = PBXGroup;
 			children = (
 				CC52E6C22E87522900C447CA /* README.md */,
-				CC52E6C62E8753DB00C447CA /* fabric_selection.png */,
-				CC52E6C82E87543600C447CA /* vrf_detail.png */,
-				CC52E6C42E87533B00C447CA /* login_screen.png */,
+				CC52E6CA2E87560900C447CA /* images */,
 				CCC8CAAF2E1638640024DE9F /* NdVRF */,
 				CCC8CABE2E1638650024DE9F /* NdVRFTests */,
 				CCC8CAC82E1638650024DE9F /* NdVRFUITests */,
@@ -123,6 +120,7 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
+				CC52E6CA2E87560900C447CA /* images */,
 				CCC8CAAF2E1638640024DE9F /* NdVRF */,
 			);
 			name = NdVRF;
@@ -227,10 +225,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CC52E6C52E87533B00C447CA /* login_screen.png in Resources */,
 				CC52E6C32E87523000C447CA /* README.md in Resources */,
-				CC52E6C72E8753DB00C447CA /* fabric_selection.png in Resources */,
-				CC52E6C92E87543600C447CA /* vrf_detail.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
